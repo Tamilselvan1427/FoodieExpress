@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodieExpress - Order Food Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">🍽️ FoodieExpress</div>
+        <div class="location">
+          <span>Deliver to: <strong>Bengaluru, 560076</strong></span>
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for restaurants, cuisines, or dishes..."
+          />
+        </div>
+        <div class="user-actions">
+          <a href="#cart" class="cart-icon">
+            🛒
+            <span class="cart-count">3</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1>Delicious Food Delivered Fast</h1>
+        <p>
+          Order from your favorite restaurants and get fresh food delivered to
+          your doorstep
+        </p>
+        <a href="#restaurants" class="cta-button">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+      <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">🍕</div>
+            <h3>Pizza</h3>
+            <p>Delicious pizzas from top restaurants</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🍔</div>
+            <h3>Burgers</h3>
+            <p>Juicy burgers and sandwiches</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🥗</div>
+            <h3>Healthy</h3>
+            <p>Fresh salads and healthy options</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🍰</div>
+            <h3>Desserts</h3>
+            <p>Sweet treats and desserts</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">☕</div>
+            <h3>Beverages</h3>
+            <p>Coffee, tea, and refreshing drinks</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section id="restaurants" class="restaurants">
+      <div class="container">
+        <h2 class="section-title">Top Restaurants Near You</h2>
+        <div class="restaurants-grid">
+          <div class="restaurant-card">
+            <div class="restaurant-image">🍕</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Tony's Pizzeria</div>
+              <div class="restaurant-cuisine">Italian, Pizza, Fast Food</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.3</div>
+                <div class="delivery-time">25-30 mins</div>
+              </div>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="restaurant-image">🍔</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Burger Palace</div>
+              <div class="restaurant-cuisine">American, Burgers, Fast Food</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.1</div>
+                <div class="delivery-time">20-25 mins</div>
+              </div>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="restaurant-image">🍜</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Dragon Wok</div>
+              <div class="restaurant-cuisine">Chinese, Asian, Noodles</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.5</div>
+                <div class="delivery-time">30-35 mins</div>
+              </div>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="restaurant-image">🥗</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Green Garden</div>
+              <div class="restaurant-cuisine">Healthy, Salads, Vegan</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.4</div>
+                <div class="delivery-time">15-20 mins</div>
+              </div>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="restaurant-image">🌮</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Taco Fiesta</div>
+              <div class="restaurant-cuisine">Mexican, Tacos, Spicy</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.2</div>
+                <div class="delivery-time">25-30 mins</div>
+              </div>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="restaurant-image">🍛</div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Spice Route</div>
+              <div class="restaurant-cuisine">Indian, Curry, Spicy</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.6</div>
+                <div class="delivery-time">35-40 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu">
+      <div class="container">
+        <h2 class="section-title">Popular Dishes</h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-image">🍕</div>
+            <div class="menu-info">
+              <div class="menu-name">Margherita Pizza</div>
+              <div class="menu-description">
+                Fresh tomatoes, mozzarella, basil, and olive oil on crispy crust
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.149</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">🍔</div>
+            <div class="menu-info">
+              <div class="menu-name">Classic Cheeseburger</div>
+              <div class="menu-description">
+                Crispy aloo patty with cheese, lettuce, tomato, and special
+                sauce
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.129</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">🍜</div>
+            <div class="menu-info">
+              <div class="menu-name">Chicken Noodles</div>
+              <div class="menu-description">
+                Rich broth with tender chicken, noodles, and fresh vegetables
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.139</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">🥗</div>
+            <div class="menu-info">
+              <div class="menu-name">Veg Salad</div>
+              <div class="menu-description">
+                Fresh romaine lettuce, parmesan, croutons, and caesar dressing
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.99</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">🌮</div>
+            <div class="menu-info">
+              <div class="menu-name">Fish Tacos</div>
+              <div class="menu-description">
+                Grilled fish with cabbage slaw, pico de gallo, and lime crema
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.119</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">🍛</div>
+            <div class="menu-info">
+              <div class="menu-name">Butter Chicken</div>
+              <div class="menu-description">
+                Creamy tomato curry with tender chicken and basmati rice
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.159</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="offers">
+      <div class="container">
+        <h2 class="section-title">Special Offers</h2>
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-title">50% OFF</div>
+            <div class="offer-description">on your first order</div>
+            <div class="offer-code">Use: WELCOME50</div>
+          </div>
+          <div class="offer-card">
+            <div class="offer-title">Free Delivery</div>
+            <div class="offer-description">on orders above Rs.25</div>
+            <div class="offer-code">Use: FREEDEL</div>
+          </div>
+          <div class="offer-card">
+            <div class="offer-title">Buy 1 Get 1</div>
+            <div class="offer-description">on selected pizzas</div>
+            <div class="offer-code">Use: BOGO</div>
+          </div>
+          <div class="offer-card">
+            <div class="offer-title">20% OFF</div>
+            <div class="offer-description">on weekend orders</div>
+            <div class="offer-code">Use: WEEKEND20</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>FoodieExpress</h3>
+            <p>
+              Your favorite food delivery app bringing delicious meals right to
+              your doorstep.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#restaurants">Restaurants</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#offers">Offers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>📞 1-800-FOODIE</p>
+            <p>📧 support@foodieexpress.com</p>
+            <p>📍 123 Food Street, NY 10001</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 FoodieExpress. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div id="cart" class="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart (3 items)</h3>
+        <a href="#" class="close-cart">✕</a>
+      </div>
+      <div class="cart-items">
+        <div class="cart-item">
+          <h4>Margherita Pizza</h4>
+          <p class="cart-restaurant">Tony's Pizzeria</p>
+          <div class="cart-item-footer">
+            <span>Rs.14.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <h4>Classic Cheeseburger</h4>
+          <p class="cart-restaurant">Burger Palace</p>
+          <div class="cart-item-footer">
+            <span>Rs.120.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>2</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <h4>Caesar Salad</h4>
+          <p class="cart-restaurant">Green Garden</p>
+          <div class="cart-item-footer">
+            <span>Rs.9.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-totals">
+        <div class="cart-total-row">
+          <span>Subtotal:</span>
+          <span>Rs.370.97</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Delivery Fee:</span>
+          <span>Rs.20.99</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Tax:</span>
+          <span>Rs.30.28</span>
+        </div>
+        <div class="cart-total-final">
+          <span>Total:</span>
+          <span>Rs.440.24</span>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
